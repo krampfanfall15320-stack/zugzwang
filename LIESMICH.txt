@@ -1,0 +1,13 @@
+Zugzwang – Schach-PWA (Bots + unbegrenzte Analyse, Stockfish 19 lokal)
+
+Aufs iPhone bringen (kostenlos, über GitHub Pages):
+1. github.com → neues öffentliches Repository, z. B. "zugzwang".
+2. "Add file" → "Upload files" → ALLE Dateien aus diesem Ordner hochladen (nicht den Ordner selbst) → Commit.
+3. Settings → Pages → Source: "Deploy from a branch", Branch: main, Ordner: / (root) → Save.
+4. Nach ca. 1 Minute: https://DEINNAME.github.io/zugzwang/ in Safari öffnen.
+5. Teilen → "Zum Home-Bildschirm". Danach läuft die App auch offline.
+
+Lokal testen am PC:  python3 -m http.server  (im Ordner) → http://localhost:8000
+
+Stockfish ist GPLv3 (siehe STOCKFISH-LICENSE.txt, Quelle: github.com/official-stockfish/Stockfish
+und github.com/nmrugg/stockfish.js). Die App-Oberfläche nutzt chessground (GPLv3) und chess.js (BSD).
